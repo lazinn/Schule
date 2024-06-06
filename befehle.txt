@@ -1,0 +1,15 @@
+F13:
+SELECT f.ArtikelID, f.bezeichnung, f.hersteller, SUM(r.menge) AS Gesamtmenge FROM fahrrad AS f JOIN rechnungspositionen AS r ON f.ArtikelID = r.ArtikelID 
+GROUP BY f.ArtikelID;
+
+
+F14
+select m.Personalnr, m.Vorname, m.Nachname, COUNT(r.RechnungsID), SUM(r.Gesamtpreis) from mitarbeiter as m LEFT Join rechnungen as r On m.Personalnr = r.Personalnr GROUP By Personalnr;
+
+F17:
+
+geht nicht da wir keine Benutzerlogins in einer anwendung haben.
+Wer angemeldet ist wäre über eine Programmierung einfach, indem man am anfang wo der benutzer sich anmeldet seine id als variable gespeichert wird.
+Die jetzige Uhrzeit geht z.B. über CURRENT_DATE
+
+F
