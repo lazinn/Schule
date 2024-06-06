@@ -10,6 +10,7 @@ F17:
 
 geht nicht da wir keine Benutzerlogins in einer anwendung haben.
 Wer angemeldet ist wäre über eine Programmierung einfach, indem man am anfang wo der benutzer sich anmeldet seine id als variable gespeichert wird.
+SQL würde theoretisch über CURRENT_USER gehen, müsste aber die verknüpfung zwischen benutzernamen der DB und dem Mitarbeiternamen übereinstimmen.
 Die jetzige Uhrzeit geht z.B. über CURRENT_DATE
 
 F
