@@ -4,7 +4,7 @@ mydb = mysql.connector.connect(
   host="datenbank.goofyatzen.de",
   user="python",
   password="test",
-  database="Test"
+  database="Fahrrad"
 )
 
 Hersteller = "Test"
