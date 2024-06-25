@@ -8,7 +8,7 @@ mydb = mysql.connector.connect(
 )
 
 Hersteller = "Test"
-bezeichnung = "keta"
+bezeichnung = "Schulpräsi"
 Beschreibungstext = "guter akku"
 Listenpreis = 999.00
 Rahmenhöhe = "27"
